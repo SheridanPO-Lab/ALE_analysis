@@ -1,4 +1,6 @@
 # ALE_analysis
+
+## *Calculating transfers to and from each branch on the species tree*
 Run script in directory containing the transfer frequency files (ending .uTs) from the ALE gene tree-species tree reconciliations.
 
 ## Usage

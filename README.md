@@ -1,9 +1,14 @@
 # ALE_analysis
 
+
 ## *Calculating transfers to and from each branch on the species tree*
-Run script in directory containing the transfer frequency files (ending .uTs) from the ALE gene tree-species tree reconciliations.
+In examing gene family transfers it may be of interest to examine lateral gene transfer donors, as well as recipients. The calc_from_to_T.sh script manipulates results from the ALE output transfer frequency files (ending .uTs) to identify branches of species trees with high numbers of gene family donation, as well as receipt. 
+
+## Sample data for testing workflows
+To test that things are working as expected, it may be convenient to experiment with the files in Example100_uTs.tar.gz in this repository.
 
 ## Usage
+Run script in directory containing the transfer frequency files (ending .uTs) from the ALE gene tree-species tree reconciliations.
 ```bash
 sh calc_from_to_T.sh
 ```
